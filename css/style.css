@@ -1,0 +1,21 @@
+.wrapper{
+    background-color: rgb(199, 195, 195);
+    width: 1500px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+body{
+    padding: 70px;
+}
+
+.tv{
+    border: 5px solid rgb(73, 72, 72);
+    background-color: white;
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    
+}
