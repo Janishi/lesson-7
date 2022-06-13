@@ -19,3 +19,58 @@ body{
     top: 5%;
     
 }
+.image1{
+    width: 200px;
+    position:absolute;
+    top: 62px;
+    left: 200px;
+    animation: dancer1 5s infinite;
+
+}
+@keyframes dancer1{
+   0%{transform: translateX(0);}
+   10%{transform: translateX(40px);}
+   20%{transform: translateY(15px);}
+   15%{transform: translateX(45px);}
+   20% {transform: translateY(20px);}
+   25%{transform: translateX(40px);}
+   35% {transform: translateY(20px);}
+   40% {transform: translateX(40px);}
+   45% {transform: translateY(20px);}
+   50% {transform: translateX(40px);}
+   70% {transform: translateX(20px);}
+   90% {transform: translateY(40px);}
+   100% {transform: translateX(20px);}
+}
+
+
+
+.image2 {
+    width: 170px;
+    position: absolute;
+    top: 65px;
+    left: 300x;
+    animation: dancer1 7s infinite;
+}
+.image3{
+    width: 200px;
+    position: absolute;
+    top: 60px;
+    left: 400px;
+    animation: dancer1 7s infinite;
+}
+.image4{
+    width: 180px;
+    position: absolute;
+    top: 70px;
+    left: 250px;
+    animation: dancer1 7s infinite;
+}
+
+.h1{
+    position: absolute;
+    font-size: 100px;
+    top: 540px;
+    left: 200px;
+    color:red;
+}
